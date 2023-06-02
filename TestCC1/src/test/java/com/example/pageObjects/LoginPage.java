@@ -36,6 +36,7 @@ public class LoginPage {
 	public void setEmail(String emaildata)
 	{
 		email.sendKeys(emaildata);
+		System.out.println("changing code");
 	}
 	
 	public void setPassword(String passwordData)
